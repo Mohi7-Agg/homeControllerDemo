@@ -1,0 +1,13 @@
+{
+  "name"         : "kisan-demo",
+  "version"      : "0.0.0",
+  "description"  : "OTP sending demo.",
+  "main"         : "server.js",
+  "author"       : "mohit_Aggarwal",
+  "dependencies" : {
+    "express"    : "~4.7.2",
+    "morgan"	 : "~1.2.2",
+  	"body-parser": "~1.5.2",
+  	"method-override": "~2.1.2"
+  }
+}

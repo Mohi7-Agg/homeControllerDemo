@@ -1,0 +1,89 @@
+.listItem {
+	font-family: "GeogrotesqueMedium", sans-serif;
+    font-weight: 400;
+    font-stretch: normal;    
+    background: #FFF;
+    color: #141414;
+    cursor:pointer;
+    overflow: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;    
+    border: #BFBFBF solid 1px;
+    border-radius: 2px;        
+    box-shadow: 0 1px 0px 0px rgba(191, 191, 191, 0.75);
+    line-height: 1.8rem;
+    outline: none;
+    text-indent: 10px;
+    -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  text-overflow: ellipsis;
+}
+.heading {
+    text-align: center;
+    color: green;
+}
+.tabGroup {
+    background: chocolate !important;
+}
+
+.tabStyle {
+    font-family: "GeogrotesqueMedium", sans-serif;
+    font-weight: 400;
+    font-stretch: normal;    
+    background: #FFF;
+    margin-left:10px;
+    display:inline;
+    font-size:larger;
+    background: chocolate !important;
+    color:#FFF;
+    cursor:pointer;
+    overflow: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;    
+    line-height: 1.8rem;
+    outline: none;
+    text-indent: 10px;
+    -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  text-overflow: ellipsis;
+
+}
+.fieldName {
+    font-family: "GeogrotesqueMedium", sans-serif;
+    font-weight: 400;
+    font-stretch: normal;   
+    background: #FFF;
+    overflow: hidden;  
+    line-height: 1.8rem;
+    outline: none;
+    color:darkblue;
+}
+.fieldValue {
+    font-family: "GeogrotesqueMedium", sans-serif;
+    font-weight: 400;
+    font-stretch: normal;    
+    background: #FFF;
+    overflow: hidden;  
+    line-height: 1.8rem;
+    outline: none;
+    color:chocolate;
+}
+.sendButton{
+    background-color: #008CBA;
+    border: none;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 16px;
+}
+.footerStyle{    
+    position: fixed;
+    bottom: 10px;    
+}
+.listContainer{
+    overflow:auto;
+}
